@@ -1,0 +1,59 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Colors */
+/*  https://coolors.co/606c38-283618-fefae0-dda15e-bc6c25   */
+
+/* Importing components */
+@import url("components/cards.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+
+
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: #fefae0;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h2{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width:800px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 960px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
